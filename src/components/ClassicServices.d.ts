@@ -1,5 +1,3 @@
-declare module './ClassicServices.jsx' {
-  import React from 'react';
-  const ClassicServices: React.FC<{ currentCurrency: 'USD' | 'EUR' }>;
-  export default ClassicServices;
-}
+import React from 'react';
+declare const ClassicServices: React.FC<{ currentCurrency: 'USD' | 'EUR'; exchangeRate: number | null }>;
+export default ClassicServices;
